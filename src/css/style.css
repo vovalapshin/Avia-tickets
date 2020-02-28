@@ -1,0 +1,124 @@
+.d-flex {
+  display: flex;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.justify-items-center {
+  justify-items: center;
+}
+
+.ml-auto {
+  margin-left: auto;
+}
+
+.mr-auto {
+  margin-right: auto;
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Header style*/
+
+.header .brand-logo {
+  position: static;
+}
+
+.header .currency-select .select-dropdown {
+  margin: 0;
+  color: #fff;
+  border-bottom: none;
+}
+.header .currency-select .select-dropdown:focus {
+  border-bottom: none;
+}
+
+.header .currency-select {
+  width: 120px;
+}
+
+.header .currency-select .caret {
+  fill: #fff;
+}
+
+.header .brand-logo {
+  font-size: 1.5rem;
+}
+
+/* Form*/
+
+.card .card-content .input-field .autocomplete:focus {
+  border-bottom: 1px solid #9c27b0;
+  box-shadow: 0 1px 0 0 #9c27b0;
+}
+
+/*Alert*/
+.alert {
+  background: #ededed;
+  padding: 10px;
+  justify-content: center;
+}
+.alert-text {
+  font-weight: 700;
+}
+
+/* Tickets*/
+
+.container .card .tickets {
+  padding: 24px 24px 0 24px;
+}
+
+.tickets-header {
+  align-items: center;
+}
+
+.tickets-img {
+  max-width: 100px;
+}
+.card .card-content .card-title {
+  margin-left: 15px;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.tickets-cities {
+  justify-content: space-between;
+  font-size: 30px;
+  font-weight: 400;
+  border-bottom: 1px grey dotted;
+}
+
+.city-logo {
+  margin-top: 2px;
+}
+
+.tickets-footer {
+  padding-bottom: 10px;
+  margin-top: 10px;
+}
+
+.tickets-footer .d-flex {
+  justify-content: space-between;
+  align-items: center;
+}
+.tickets-date {
+  font-weight: 700;
+  color: grey;
+}
+
+.tickets-price {
+  font-size: 22px;
+  background-color: #6a1b9a;
+  color: #fff;
+  padding: 5px;
+}
+
+.tickets-number-flight {
+  font-weight: 700;
+  margin-top: 5px;
+}
